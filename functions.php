@@ -130,4 +130,10 @@ function update_edit_form() {
 } // end update_edit_form
 add_action('post_edit_form_tag', 'update_edit_form');
 
+function addUploadMimes($mimes) {
+	$mimes = array_merge($mimes, array('ipa' => 'application/octet-stream'));
+     return $mimes;
+}
+add_filter('upload_mimes', 'addUploadMimes');
+
 ?>
