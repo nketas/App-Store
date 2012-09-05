@@ -1,4 +1,30 @@
-App-Store
-=========
+# WordPress App Store theme
 
-A wordpress theme that converts your wordpress instance to a working App Store
+## Overview
+
+My employer has an Enterprice license and needed an easy way to host our internal Apps. I googled around and found some expensive solutions, so I decided to write a Wordpress Theme that converts your instance to an App Store.
+
+### How do I use it?
+
+#### Installation
+
+1. Start by checking out the repo to your wp-content/themes/
+2. Activate the theme from your admin interface
+3. You're done!
+
+### Uploading a new App
+
+1. Sign in to your Wordpress
+2. Go to Media and upload your App icon and and your IPA
+3. Open your .PLIST and insert your icon and IPA url
+3. Create a new 'App' from the left side menu
+4. Write the title of your App
+5. Upload the IPA to the App on the right hand side
+6. Set the icon you uploaded earlier as featured image
+7. Publish!
+
+### What about the license?
+
+Feel free to use however you want to! This is open source and will always stay that way. I would appreciate if you sent me a message if you are going to use this, I'm very interested in hearing your thoughts and feedback :)
+
+[@JagCesar](http://twitter.com/jagcesar) on Twitter
